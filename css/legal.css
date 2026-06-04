@@ -1,0 +1,114 @@
+/*
+ * Prudhvi Pharma — Legal Pages Stylesheet
+ * Used by: privacy-policy.html, terms-of-use.html
+ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Plus Jakarta Sans',sans-serif;color:#1E293B;background:#FFFFFF;-webkit-font-smoothing:antialiased;line-height:1.7;overflow-x:hidden}
+:root{
+  --teal:#0E9F7E;--teal-light:#D1F5EC;--teal-dark:#097358;
+  --blue:#2563EB;--blue-light:#DBEAFE;
+  --yellow:#D97706;--yellow-light:#FEF3C7;--yellow-bright:#F59E0B;
+  --orange:#EA580C;--orange-light:#FFEDD5;
+  --ink:#1E293B;--ink-2:#334155;--ink-3:#64748B;--ink-4:#94A3B8;
+  --surface:#FFFFFF;--surface-2:#F8FAFC;--surface-3:#F1F5F9;
+  --border:rgba(0,0,0,0.08);--border-2:rgba(0,0,0,0.13);
+  --r:10px;--r-lg:16px;--r-xl:22px;
+  --shadow:0 2px 12px rgba(0,0,0,0.07);
+}
+
+/* NAVBAR */
+.navbar{position:sticky;top:0;z-index:100;height:66px;padding:0 3.5rem;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,0.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);box-shadow:var(--shadow)}
+.nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--teal),var(--blue));display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.nav-logo svg{width:20px;height:20px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.nav-brand-name{font-family:'Fraunces',serif;font-size:19px;font-weight:700;color:var(--ink);line-height:1;display:block}
+.nav-brand-tag{font-size:10px;font-weight:500;color:var(--ink-3);letter-spacing:0.08em;text-transform:uppercase;display:block}
+.nav-back{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500;color:var(--teal);text-decoration:none;padding:8px 16px;border:1px solid var(--teal-light);border-radius:var(--r);background:var(--teal-light);transition:background .2s}
+.nav-back:hover{background:#b2f0e0}
+.nav-back svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+
+/* HERO STRIP */
+.page-hero{background:linear-gradient(135deg,#0B3D2E,#0D4F6B);padding:3.5rem 0 3rem;margin-bottom:0}
+.page-hero-inner{max-width:860px;margin:0 auto;padding:0 3.5rem}
+.page-eyebrow{display:inline-flex;align-items:center;gap:7px;background:rgba(14,159,126,0.2);border:1px solid rgba(14,159,126,0.3);color:#5EEAD4;font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:4px 13px;border-radius:20px;margin-bottom:1rem}
+.page-hero h1{font-family:'Fraunces',serif;font-size:38px;font-weight:700;color:#fff;margin-bottom:.75rem;line-height:1.1}
+.page-hero-meta{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
+.page-hero-meta span{font-size:13px;color:rgba(255,255,255,.55);display:flex;align-items:center;gap:5px}
+.page-hero-meta svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.8}
+
+/* CONTENT */
+.legal-wrap{max-width:860px;margin:0 auto;padding:4rem 3.5rem 6rem}
+.legal-toc{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--r-xl);padding:1.5rem 2rem;margin-bottom:3rem}
+.toc-title{font-size:13px;font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.75rem}
+.toc-list{display:flex;flex-direction:column;gap:4px}
+.toc-list a{font-size:13px;color:var(--teal);text-decoration:none;display:flex;align-items:center;gap:6px;padding:3px 0;transition:color .2s}
+.toc-list a:hover{color:var(--teal-dark)}
+.toc-list a svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2.5;flex-shrink:0}
+
+.legal-section{margin-bottom:3rem;scroll-margin-top:90px}
+.legal-section h2{font-family:'Fraunces',serif;font-size:26px;font-weight:700;color:var(--ink);margin-bottom:1rem;padding-bottom:.75rem;border-bottom:2px solid var(--surface-3);display:flex;align-items:center;gap:.6rem}
+.legal-section h2 .sec-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--teal-light);color:var(--teal-dark);font-size:14px;font-weight:700;font-family:'Plus Jakarta Sans',sans-serif;flex-shrink:0}
+.legal-section h3{font-size:16px;font-weight:600;color:var(--ink-2);margin:1.25rem 0 .6rem}
+.legal-section p{font-size:14.5px;color:var(--ink-3);line-height:1.85;margin-bottom:1rem}
+.legal-section p strong{color:var(--ink);font-weight:600}
+.legal-section ul,.legal-section ol{padding-left:1.5rem;margin-bottom:1rem}
+.legal-section li{font-size:14.5px;color:var(--ink-3);line-height:1.8;margin-bottom:.4rem}
+.legal-section li strong{color:var(--ink-2);font-weight:600}
+
+.info-box{background:var(--teal-light);border:1px solid rgba(14,159,126,.25);border-radius:var(--r-lg);padding:1.25rem 1.5rem;margin-bottom:1.5rem;display:flex;gap:.85rem;align-items:flex-start}
+.info-box svg{width:20px;height:20px;stroke:var(--teal-dark);fill:none;stroke-width:1.8;flex-shrink:0;margin-top:2px}
+.info-box p{font-size:13.5px;color:#065f46;line-height:1.7;margin:0}
+
+.warn-box{background:#FEF3C7;border:1px solid rgba(245,158,11,.3);border-radius:var(--r-lg);padding:1.25rem 1.5rem;margin-bottom:1.5rem;display:flex;gap:.85rem;align-items:flex-start}
+.warn-box svg{width:20px;height:20px;stroke:#92400E;fill:none;stroke-width:1.8;flex-shrink:0;margin-top:2px}
+.warn-box p{font-size:13.5px;color:#78350F;line-height:1.7;margin:0}
+
+.contact-card{background:linear-gradient(135deg,#0B3D2E,#0D4F6B);border-radius:var(--r-xl);padding:2rem;margin-top:2rem}
+.contact-card h3{font-family:'Fraunces',serif;font-size:22px;color:#fff;margin-bottom:.5rem}
+.contact-card p{font-size:13.5px;color:rgba(255,255,255,.7);margin-bottom:1.25rem}
+.contact-card .c-row{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem}
+.contact-card .c-row svg{width:16px;height:16px;stroke:#2DD4BF;fill:none;stroke-width:1.8}
+.contact-card .c-row span{font-size:13px;color:rgba(255,255,255,.75)}
+.contact-card a{color:#2DD4BF;text-decoration:none}
+
+/* FOOTER */
+.legal-footer{background:var(--ink);padding:2.5rem 3.5rem}
+.lf-inner{max-width:860px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.lf-brand{font-family:'Fraunces',serif;font-size:18px;font-weight:700;color:#fff}
+.lf-links{display:flex;gap:1.25rem}
+.lf-links a{font-size:12px;color:rgba(255,255,255,.45);text-decoration:none;transition:color .2s}
+.lf-links a:hover,.lf-links a.active{color:rgba(255,255,255,.85)}
+.lf-copy{width:100%;font-size:11px;color:rgba(255,255,255,.2);text-align:center;padding-top:.75rem;border-top:1px solid rgba(255,255,255,.07);margin-top:.5rem}
+
+@media(max-width:768px){
+  .navbar{padding:0 1rem;height:60px}
+  .page-hero-inner,.legal-wrap{padding-left:1.25rem;padding-right:1.25rem}
+  .page-hero h1{font-size:28px}
+  .legal-wrap{padding-top:2.5rem;padding-bottom:4rem}
+  .legal-section h2{font-size:21px}
+  .legal-footer{padding:2rem 1.25rem}
+  .lf-inner{flex-direction:column;gap:.75rem;text-align:center}
+  .lf-links{justify-content:center}
+}
+@media(max-width:480px){
+  .page-hero h1{font-size:24px}
+  .legal-section h2{font-size:19px}
+  .legal-toc{padding:1.25rem}
+}
+
+/* ── LOGO IMAGE ── */
+.nav-logo-img{
+  height:44px;
+  width:auto;
+  object-fit:contain;
+  border-radius:6px;
+  background:#fff;
+  padding:3px;
+  flex-shrink:0;
+}
+@media(max-width:640px){
+  .nav-logo-img{height:36px}
+}
