@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 480" fill="none">
+  <circle cx="220" cy="240" r="180" fill="rgba(14,159,126,0.06)"/>
+  <circle cx="220" cy="240" r="130" fill="rgba(37,99,235,0.06)"/>
+  <path d="M220 60 L330 110 L330 240 C330 310 280 370 220 400 C160 370 110 310 110 240 L110 110 Z" fill="rgba(255,255,255,0.05)" stroke="rgba(45,212,191,0.3)" stroke-width="1.5"/>
+  <path d="M220 80 L315 125 L315 242 C315 304 270 358 220 384 C170 358 125 304 125 242 L125 125 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(147,197,253,0.2)" stroke-width="1"/>
+  <rect x="200" y="165" width="40" height="110" rx="8" fill="rgba(45,212,191,0.25)" stroke="rgba(45,212,191,0.6)" stroke-width="1.5"/>
+  <rect x="165" y="200" width="110" height="40" rx="8" fill="rgba(45,212,191,0.25)" stroke="rgba(45,212,191,0.6)" stroke-width="1.5"/>
+  <rect x="58" y="198" width="82" height="34" rx="17" fill="rgba(252,211,77,0.15)" stroke="rgba(252,211,77,0.5)" stroke-width="1.5"/>
+  <line x1="99" y1="198" x2="99" y2="232" stroke="rgba(252,211,77,0.5)" stroke-width="1.5"/>
+  <rect x="58" y="198" width="41" height="34" rx="17" fill="rgba(252,211,77,0.2)"/>
+  <rect x="298" y="158" width="82" height="34" rx="17" fill="rgba(251,146,60,0.15)" stroke="rgba(251,146,60,0.5)" stroke-width="1.5"/>
+  <line x1="339" y1="158" x2="339" y2="192" stroke="rgba(251,146,60,0.5)" stroke-width="1.5"/>
+  <rect x="339" y="158" width="41" height="34" rx="17" fill="rgba(251,146,60,0.2)"/>
+  <circle cx="80" cy="308" r="22" fill="rgba(147,197,253,0.15)" stroke="rgba(147,197,253,0.5)" stroke-width="1.5"/>
+  <circle cx="358" cy="288" r="18" fill="rgba(45,212,191,0.15)" stroke="rgba(45,212,191,0.5)" stroke-width="1.5"/>
+  <circle cx="138" cy="128" r="6" fill="rgba(45,212,191,0.4)"/>
+  <circle cx="154" cy="116" r="4" fill="rgba(252,211,77,0.4)"/>
+  <path d="M373 78 L376 70 L379 78 L387 81 L379 84 L376 92 L373 84 L365 81 Z" fill="rgba(252,211,77,0.6)"/>
+  <path d="M53 348 L55 343 L57 348 L62 350 L57 352 L55 357 L53 352 L48 350 Z" fill="rgba(45,212,191,0.6)"/>
+  <rect x="153" y="416" width="134" height="28" rx="14" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="220" y="434" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,0.5)" letter-spacing="2">PRUDHVI PHARMA</text>
+</svg>
